@@ -3,6 +3,7 @@
 #Controls: 
  - Player 1: Q & A
  - Player 2: O & L
+ *__*
  The player who reach 5 points wins.
  
  *In Progress
