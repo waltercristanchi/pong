@@ -1,0 +1,52 @@
+body, html{
+  height: 100%;
+  background: black;
+}
+
+#ball{
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  position: absolute;
+  left: 510px;
+  top: 0px;
+  border-radius: 50px;
+  z-index: 1;
+}
+#button{
+  background: wheat;
+  border: 1px solid rgb(192, 192, 192);
+  padding: 1rem;
+  color: black;
+  display: flex;
+  position: absolute;
+  margin: auto;
+  z-index: 1;
+  top: 50%;
+  left: calc(50% - 82.88px);
+}
+.bar{
+  position:absolute;
+  top: 20px;
+  width: 20px;
+  height: 100px;
+  background: white;
+  border-radius: 10px;
+}
+#bar1{  
+ left: 0px;
+}
+#bar2{
+  right: 0px;
+}
+#midline{
+  position: absolute;
+  width: 50%;
+  border-right: #fff dashed 5px;
+  height: 100%;
+}
+h3{
+  position: absolute;
+  color: white;
+  margin: 5rem;
+}
